@@ -1,0 +1,149 @@
+@import url(css/bootstrap.css);
+
+.custom {
+    background: #555;
+    border-radius: 5px;
+}
+
+.hero-unit{
+    margin: 27px 27px;
+}
+
+body {
+    background: #CDA;
+}
+
+#wrapper {
+    width: 960px;
+    background: -moz-linear-gradient(bottom, #789, #ABC);
+    margin: 15px auto 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #222;
+}
+
+#header {
+    position: relative;
+    background: #EEE;
+    width: 920px;
+    margin: 7px auto 0 auto;
+    padding-bottom: 7px;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 15px #222;
+}
+
+#title h1 {
+    font-family: Desdemona;
+    font-size: 4.5em;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 10px;
+    text-shadow: 2px 2px 3px #000;
+}
+
+#title .subHead {
+    font-family: "Edwardian Script ITC";
+    font-size: 2em;
+    font-weight: lighter;
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+#menu {
+    clear: both;
+}
+
+#menu ul {
+    width: 890px;
+    background: #CDA;
+    padding: 5px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: inset 0px 0px 9px #222;
+}
+
+#menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 9px;
+    box-shadow: 4px 4px 4px 1px #222;
+    background: -moz-linear-gradient(bottom, #707070, #C0C0C0);
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+}
+
+#body {
+    margin: 20px auto 10px auto;
+    background: #EEE;
+    border-radius: 8px;
+}
+
+#article {
+    background: #fff;
+    min-height: 500px;
+    margin-left: 27px;
+    border-radius: 6px;
+}
+
+#aside {
+    background: #fff;
+    min-height: 500px;
+    margin-right: 27px;
+    border-radius: 6px;
+}
+
+#aside h3 {
+    margin-top: 0;
+}
+
+#postName {
+    padding: 15px 0;
+}
+
+#date {
+    padding: 0 0 15px 20px;
+}
+
+#content p {
+    padding: 0 0 15px 0;
+    line-height: 1.4em;
+}
+
+#content .primary {
+    font-size: 2.6em;
+    font-weight: bolder;
+    line-height: .7em;
+    padding: .15em .15em;
+    margin-right: .1em;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    background: -moz-linear-gradient(top, #BBB, #EEE);
+    box-shadow: inset 0px 0px 6px #999;
+}
+
+#content .secondary {
+    font-size: 1.4em;
+    line-height: .6em;
+    font-weight: bolder;
+    float: left;
+    border: 1px solid black;
+    padding: .15em .15em;
+    margin-right: .2em;
+    text-align: center;
+}
+
+#content .secondarySpace {
+    font-size: 1.8em;
+    font-weight: bolder;
+    float: left;
+    padding-right: 5px;
+}
